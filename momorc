@@ -1,0 +1,19 @@
+# usage: 
+# https://unix.stackexchange.com/questions/51818/is-it-possible-to-include-file-in-config-file-of-zsh-how/396180
+# # source aliases
+# ALIASFILE=~/projects/momopawarrrr/momorc
+# source $ALIASFILE
+# function add_alias() {
+#     if [[ -z $1 || -z $2 || $# -gt 2 ]]; then
+#         echo usage:
+#         echo "\t\$$0 ll 'ls -l'"
+#     else
+#         echo "alias $1='$2'" >> $ALIASFILE
+#         echo "alias ADDED to $ALIASFILE"
+#     fi
+# }
+
+echo 'loading momopawarrrr.....'
+
+
+
