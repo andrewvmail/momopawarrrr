@@ -1,4 +1,6 @@
--rainbow brackets
--erlang
--bash support
--hashicorp terraform
+
+
+- rainbow brackets
+- erlang
+- bash support
+- hashicorp terraform
