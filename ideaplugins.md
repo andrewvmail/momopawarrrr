@@ -5,4 +5,4 @@
 - bash support
 - hashicorp terraform
 - makefile support
-
+- string manipulation
