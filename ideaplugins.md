@@ -1,5 +1,6 @@
 
-
+- make sure prettier works
+- ideavim
 - rainbow brackets
 - erlang
 - bash support
