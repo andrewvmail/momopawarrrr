@@ -1,5 +1,3 @@
-" source file in .vimrc 
-
 set clipboard=unnamed
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git|platforms\'
 
@@ -46,3 +44,5 @@ syntax on " enabled syntax highlighting
 :set shiftwidth=2
 :set expandtab
 :set softtabstop=2 " makes the spaces feel like real tabs
+" echo source .momovimrc >> .vimrc
+imap jj <Esc>
