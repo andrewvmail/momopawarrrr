@@ -24,6 +24,7 @@ call vundle#begin()
 	Plugin 'quramy/tsuquyomi'
 	Plugin 'leafgarland/typescript-vim'
 	Plugin 'Quramy/vim-js-pretty-template'
+  Plugin 'tpope/vim-surround'
 call vundle#end()
 
 set backspace=indent,eol,start
