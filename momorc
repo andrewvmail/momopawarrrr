@@ -30,3 +30,7 @@ bindkey '^r' history-incremental-search-backward
 
 export KEYTIMEOUT=2
 
+# perf curl
+function perf {
+  curl -o /dev/null -s -w "%{time_connect} + %{time_starttransfer} = %{time_total}\n" "$1"
+}

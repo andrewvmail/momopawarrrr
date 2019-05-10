@@ -1,2 +1,49 @@
+set clipboard=unnamed
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git|platforms\'
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+set backspace=2
+:nnoremap <C-g> :NERDTree<CR>
+set number
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+  Plugin 'prettier/vim-prettier'
+  Plugin 'scrooloose/nerdtree'
+	Plugin 'scrooloose/nerdcommenter'
+	Plugin 'bling/vim-airline'
+	Plugin 'easymotion/vim-easymotion'
+	Plugin 'VundleVim/Vundle.vim'
+	Plugin 'scrooloose/syntastic'
+	Plugin 'shougo/vimproc.vim'
+	Plugin 'kien/ctrlp.vim'
+	" Plugin 'valloric/youcompleteme'
+  " TS
+	Plugin 'quramy/tsuquyomi'
+	Plugin 'leafgarland/typescript-vim'
+	Plugin 'Quramy/vim-js-pretty-template'
+  Plugin 'tpope/vim-surround'
+call vundle#end()
+
+set backspace=indent,eol,start
+set tabstop=2
+colorscheme monokai
+let g:molokai_original = 1
+let g:rehash256 = 1
+syntax enable
+let g:NERDTreeDirArrows=0
+set nocompatible
+filetype off
+set t_Co=256
+set nu
+syntax on " enabled syntax highlighting
+:set number " line numbers
+":set ai " autoindent
+:set tabstop=2 " sets tabs to 4 characters
+:set shiftwidth=2
+:set expandtab
+:set softtabstop=2 " makes the spaces feel like real tabs
 " echo source .momovimrc >> .vimrc
 imap jj <Esc>
