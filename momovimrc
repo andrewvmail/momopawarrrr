@@ -47,3 +47,4 @@ syntax on " enabled syntax highlighting
 :set softtabstop=2 " makes the spaces feel like real tabs
 " echo source .momovimrc >> .vimrc
 imap jj <Esc>
+:set relativenumber
